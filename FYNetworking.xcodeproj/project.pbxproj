@@ -13,6 +13,9 @@
 		C60467FE27B3799600914194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60467FD27B3799600914194 /* Assets.xcassets */; };
 		C604680127B3799600914194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60467FF27B3799600914194 /* LaunchScreen.storyboard */; };
 		C604680427B3799600914194 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C604680327B3799600914194 /* main.m */; };
+		C604680E27B37CF400914194 /* FYNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = C604680D27B37CF400914194 /* FYNetworkAgent.m */; };
+		C604681127B40C9800914194 /* FYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C604681027B40C9800914194 /* FYNetworkManager.m */; };
+		C6D41B6B27B54A7100B2EE8C /* FYURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D41B6A27B54A7100B2EE8C /* FYURLRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		C604680027B3799600914194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C604680227B3799600914194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C604680327B3799600914194 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C604680C27B37CF400914194 /* FYNetworkAgent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYNetworkAgent.h; sourceTree = "<group>"; };
+		C604680D27B37CF400914194 /* FYNetworkAgent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYNetworkAgent.m; sourceTree = "<group>"; };
+		C604680F27B40C9800914194 /* FYNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYNetworkManager.h; sourceTree = "<group>"; };
+		C604681027B40C9800914194 /* FYNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYNetworkManager.m; sourceTree = "<group>"; };
+		C628FD0C27B7693900D29B18 /* FYNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYNetworking.h; sourceTree = "<group>"; };
+		C6D41B6927B54A7100B2EE8C /* FYURLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYURLRequest.h; sourceTree = "<group>"; };
+		C6D41B6A27B54A7100B2EE8C /* FYURLRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYURLRequest.m; sourceTree = "<group>"; };
 		DBAA20F6D400AACE116C42BC /* libPods-FYNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52131E9AA65E9043BB55B9C /* Pods-FYNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYNetworking.debug.xcconfig"; path = "Target Support Files/Pods-FYNetworking/Pods-FYNetworking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +98,13 @@
 		C604680A27B379CE00914194 /* FYNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				C604680F27B40C9800914194 /* FYNetworkManager.h */,
+				C604681027B40C9800914194 /* FYNetworkManager.m */,
+				C604680C27B37CF400914194 /* FYNetworkAgent.h */,
+				C604680D27B37CF400914194 /* FYNetworkAgent.m */,
+				C6D41B6927B54A7100B2EE8C /* FYURLRequest.h */,
+				C6D41B6A27B54A7100B2EE8C /* FYURLRequest.m */,
+				C628FD0C27B7693900D29B18 /* FYNetworking.h */,
 			);
 			path = FYNetworking;
 			sourceTree = "<group>";
@@ -203,9 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C604681127B40C9800914194 /* FYNetworkManager.m in Sources */,
 				C60467F927B3799400914194 /* ViewController.m in Sources */,
 				C60467F327B3799400914194 /* AppDelegate.m in Sources */,
 				C604680427B3799600914194 /* main.m in Sources */,
+				C6D41B6B27B54A7100B2EE8C /* FYURLRequest.m in Sources */,
+				C604680E27B37CF400914194 /* FYNetworkAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
